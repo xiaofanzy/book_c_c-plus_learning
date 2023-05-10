@@ -1,0 +1,8 @@
+1. getchar() 返回ch putchar(getchar()) -> 可以
+   putchar() 没有返回值 ，getchar(putchar()) -> 不行
+
+2. H
+    报警
+    换行
+
+3. 
