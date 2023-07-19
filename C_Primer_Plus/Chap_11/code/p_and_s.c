@@ -9,5 +9,14 @@ int main(void)
     printf("meag = %s &meag = %p, value = %p\n", meag, &meag, meag);
     printf("copy = %s &copy = %p, value = %p\n", copy, &copy, copy);
 
+        paramsIn.put("id", CommUtil.getString(maps.get("id")));
+		
+        
+
+
+
+
+
+
     return 0;
 }
