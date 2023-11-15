@@ -2,5 +2,51 @@
 a. he sold the painting for $234.50
 b. Hi!
 c. his hamlet was funny without being vulgar.
-   has 46 characters.
+   has 42 characters.
+d. it 1.20e3 the same as 1201.00
+
+4.
+#define B "booboo"
+#define X 10
+
+int main(void)
+{
+  int age,xp;
+  char name[40];
+
+  printf("Please enter your first name.");
+  scanf("%s",name);
+
+  printf("All right , %s what's your age?\n", name);
+  scanf("%d", &age);
+
+  xp = age + X;
+
+  printf("That's a %s! You must be at least %d.\n",B,xp);
+
+  return 0;
+}
+
+#include <stdio.h>
+#define BOOK "War and Peace"
+
+int main(void)
+{
+  float cost = 12.99;
+  float percent = 80.0;
+
+  printf("This copy of \"War and Peace\" sells for $2.2f",cost);
+  printf("That is %2.0f% of list\n", percent);
+
+  return 0;
+}
+
+6. 
+a. %d
+b. %4#X
+c. %10.3f
+d. %10.3f
+e. %-30s
+
+
 
