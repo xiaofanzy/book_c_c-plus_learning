@@ -1,11 +1,11 @@
 #include <stdio.h>
 #define CM_PER_INCH 2.54
-#define INCH_PER_FOOT 12.0
+#define INCH_PER_FOOT 12
 
 int main(void)
 {
   double cm,inches;
-  double feet;
+  double feet,left;
 
   printf("Enter a height in ceentimeters:");
   scanf("%lf",&cm);
@@ -13,9 +13,10 @@ int main(void)
   while (cm >= 0.0)
   {
     inches = cm / CM_PER_INCH;
-    feet = inches - ((int)(inches / INCH_PER_FOOT) * INCH_PER_FOOT);
+    feet = (int)inches / INCH_PER_FOOT;
+    left = inches - feet * INCH_PER_FOOT;
 
-    printf("%.1f cm = %.0f feet, %.1f inches.\n",cm,feet,inches);
+    printf("%.1f cm = %.0f feet, %.1f inches.\n",cm,feet,left);
     printf("Please enter again:");
     scanf("%lf",&cm);
   
