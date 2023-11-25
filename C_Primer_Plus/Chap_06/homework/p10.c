@@ -17,7 +17,7 @@ int main(void)
 
   for(index = SIZE;index >= 0;index--)
   {
-    printf("%d",list[index]);
+    printf("%d\n",list[index]);
   }
 
   return 0;
