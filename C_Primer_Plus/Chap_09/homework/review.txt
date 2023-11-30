@@ -1,0 +1,38 @@
+1.
+实际参数向形式参数传递值
+
+2.
+a/ void dount(int num);
+b/ int gear(int num,int num2);
+c/ stuff_it(double v1,double * v2);
+
+3.
+a/ char n_to_char(int v);
+b/ int digits(double d1,int n);
+c/ int random(void)
+
+4.
+int sum(int v1,int v2);
+
+5.
+void sum(double v1,double v2)
+{
+  return v1 + v2;
+}
+
+6.
+void alter(int * x, int * y)
+{
+  int add;
+  add = *x + *y;
+  *x = add;
+  *y = *x - *y;
+}
+
+8.
+int max(int x,int y,int z)
+{
+  return x > y ? x ? y > z ? y : z;
+}
+
+9.
