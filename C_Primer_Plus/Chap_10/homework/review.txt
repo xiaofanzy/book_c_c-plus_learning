@@ -28,6 +28,15 @@ b. &(grid + 22) grid[22]
 c. grid[0][0] grid[0] *grid
 
 7.
+a. int digits[10]
+b. float rates[6]
+c. int [5][3]
+d. char (*psa)[20]
+e. char (*pstr)[20] 
+
+8.
+a. 
+
 
 
 
