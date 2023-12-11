@@ -12,7 +12,7 @@
 4.
 a.
 ptr = 12的地址；
-ptr + 2 是 0的地址；
+ptr + 2 是 16的地址；
 
 b.
 *ptr = 12
@@ -30,12 +30,43 @@ c. grid[0][0] grid[0] *grid
 7.
 a. int digits[10]
 b. float rates[6]
-c. int [5][3]
+c. int mat[5][3]
 d. char (*psa)[20]
 e. char (*pstr)[20] 
 
 8.
-a. 
+a. int pt[6] = {1,2,4,8,16,32}
+b. int (*pt)[3]
+c. int arr[100] = {[99] = -1};
+
+9 
+0-9
+
+10 
+a 1 
+b 0
+c 0
+d 0
+e 1 这个对 是因为rootbeer[3] 是一个值，things[4][4] 也是也是值，所以可以赋值，但是数组和数组不允许直接赋值；
+f 0 
+g 0
+h 1
+
+11
+int arr[800][600]
+
+12
+void trots(double *t,int size);
+void trots(int size, double pt[SIZE]);
+
+
+
+
+
+
+
+
+
 
 
 
