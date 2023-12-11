@@ -2,14 +2,14 @@
 #include <limits.h>
 #include <stdbool.h>
 
-bool test_maxValue(int m,int max_value);
+bool test_maxValue(int m);
 
 int main(void)
 {
   int max_value = INT_MAX;
   bool is_max =false;
 
-  is_max = test_maxValue(max_value,INT_MAX);
+  is_max = test_maxValue(max_value);
 
   printf("The max value is %d.\n",max_value);
   printf(" Is %s",is_max ? "True":"False");
@@ -17,12 +17,9 @@ int main(void)
   return 0;
 }
 
-bool test_maxValue(int m,int max_value)
+bool test_maxValue(int m)
 {
-  bool flag = false;
-  flag = m + 1 > max_value ?  true : false;
-
-  return false;
+  return m >= INT_MAX ?  true : false;
 
 }
 
