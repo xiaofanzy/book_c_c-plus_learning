@@ -32,7 +32,7 @@ a. int digits[10]
 b. float rates[6]
 c. int mat[5][3]
 d. char (*psa)[20]
-e. char (*pstr)[20] 
+e. char *pstr [20] 
 
 8.
 a. int pt[6] = {1,2,4,8,16,32}
