@@ -1,0 +1,15 @@
+1.
+这个是字符数组，而不是字符串
+char name[] = "Fess";
+
+2.
+see you at the snack bar.
+ee you at the snack 
+see you
+e you 这玩意 note[7] 是'\0' 了
+
+3.
+ymymmyummyYummy
+
+
+
