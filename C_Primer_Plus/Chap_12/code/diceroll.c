@@ -23,7 +23,7 @@ int roll_n_dice(int dice, int sides)
 
   for (int i = 0; i < dice; i++)
   {
-    total += rollem(sides);
+    total += rollem(sides); 
   }
 
 }
