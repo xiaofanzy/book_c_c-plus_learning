@@ -1,14 +1,14 @@
 #include <stdio.h>
 
-int count = 0;
+int count = 0;  // 文件作用域 外部链接
 
 void report_count(void);
 extern void accumulate(int k);
 
 int main(void)
 {
-  int value;
-  register int i;
+  auto int value; //自动变量
+  register int i; // 寄存器变量
 
   printf("enter a positive integer (0 to quit.):");
   while (scanf("%d",&value) == 1 && value > 0)
