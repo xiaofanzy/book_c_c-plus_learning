@@ -1,0 +1,40 @@
+unsigned char byte;
+typedef unsigned char byte;
+
+byte c = 'A';
+
+
+int I;
+typedef int I;
+
+I a = 100;  -----> int a = 100;
+
+
+typedef char * STRING;
+STRING name, sign;   name和sign都是字符串
+
+#define STRING	char *
+STRING name, sign;   --- > char *name, sign;  name是字符串，而sign是char型
+
+
+typedef char (*FRPTC())[5];
+
+// 真尼玛绕
+
+1)char p[5] :p是由5个char元素构成的数组
+2)char (*pt)[5]:pt是一个指针，指向由5个char元素构成的数组
+3)char (*pt())[5]:pt是一个函数，函数返回是一个指向由5个char类型构成的数组的指针
+4)char (*FRPTC())[5]:同上
+5)typedef char (*FRPTC())[5]:
+
+int *risks[10] :一个具有10个元素的数组，每个元素都是指向int类型的指针
+int (*risks)[10]:risks是一个指针，指针指向由10个int类型构成的数组
+int *oof[3][4]:oof是一个3×4的二维数组，这个数组里面每个元素都是指向int类型的指针
+int (*uuf)[3][4]:uuf是一个指针，指针指向的是3×4的int类型数组
+int (*uuf[3])[4]:uuf是一个由3个元素构成的数组，每个元素都是 一个指针
+                每一个指针又都指向一个由4个int元素构成的数组
+
+char *fump():fump是函数，这个函数返回值是一个指向char的指针
+char (*frump)():frump是一个函数指针，这个函数指针指向返回值类型为char的函数
+char (*flumpt[3])():flump是一个数组，由3个指针构成的数组，每个指针指向返回值类型为char的函数
+
