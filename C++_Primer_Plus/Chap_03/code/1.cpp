@@ -17,7 +17,7 @@ int main(void)
 
   cout << "Maximun value:" << endl;
   cout << "int :" << n_int << endl;
-  cout << "short: " << n_short << endl;
+  cout << "short: " << n_short << e ndl;
   cout << "long: " << n_long << endl;
   cout << "long long: " << n_llong << endl;
   

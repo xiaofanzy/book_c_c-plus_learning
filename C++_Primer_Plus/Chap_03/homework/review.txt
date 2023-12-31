@@ -1,0 +1,36 @@
+1.根据数据运算的需要萱蕚合适的数据类型与之匹配；
+
+2.
+a short a = 80;
+b unsigned int b = 42110;
+c long long c = 3000000000;
+
+3.
+c++ 没有提供自动防止超出整数类溢出的功能，程序员自己想；
+
+4.
+33L 是  Long 类型的， 33 是int 类型的；
+
+5.
+等价ASCii之下；
+
+6.
+char ch = 88;
+char ch = 'a';
+
+7.不同的平台和编译器对应的long和long long类型的大小是不同的，
+  如果long长度为4字节，则存放在double类型中不会出现舍入误差，如果long long类型为8字节，则存放在double类型中会出现舍入误差。
+
+8.
+a 74
+b 4
+c 0
+d 4.5
+e 3
+
+9.
+int sum = (int)a1 + (int)a2;
+int sum = (int)(a1 + a2);
+
+
+
