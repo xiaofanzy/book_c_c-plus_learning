@@ -2,4 +2,6 @@
 
 C/C++语言学习图书
 
-# 20230719 学习 C++ Primer Plus
+# 20230719 学习 C Primer Plus
+
+# 20231230 学习 C++ Primer Plus
