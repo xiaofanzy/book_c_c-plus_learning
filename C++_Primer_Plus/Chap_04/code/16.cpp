@@ -15,4 +15,6 @@ int main(void)
   cout << "value = " << update << " , *pt = " << pt << endl;
 
   return 0;
+
+  // new 为数据对象来开辟一段与之大小对印的内存空间
 }
