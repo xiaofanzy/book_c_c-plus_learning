@@ -1,0 +1,100 @@
+1.
+a. char actor[30];
+b. short betsie[100];
+c. float chuck[13];
+d. long double dipsea[64];
+
+2.
+a. vector<char> actor(30);
+b. vector<short> betsie(100);
+c. vector<float> chuck(13);
+d. vector<long double> dipsea(64);
+
+3.
+int ar[5] = {1,2,3,4,5};
+
+4.
+int even[2] = {ar[0],ar[5]};
+
+5.
+cout << ideas[1] << endl;
+
+6.
+char str[] = "cheeseburger";
+
+7.
+string str = "waldorfsalad";
+
+8.
+struct fish
+{
+	char type[80];
+	float weight;
+	float length;
+};
+
+9.
+fish write = {"dog",100.0,20.0};
+
+10.
+enum Response {YES = 1,NO = 0,Maybe = 2};
+
+11.
+double *pt = &ted;
+cout << *pt << endl;
+
+12.
+float *pt = treacle;
+cout << "frist method = " << *pt << endl;
+cout << "last method = " << *(pt + strlen(treacle)) << endl;
+
+13.
+#include <iostream>
+#include <vector>
+#inlcude <cstring>
+
+int main(void)
+{
+	using namespace std;
+
+	int size;
+
+	cout << "Enter the size of vector:"<< endl;
+	cin >> size;
+
+	int arr1 = new int[size];
+	arr1[0] = 1;
+	cout << "arr[0] = " << arr1[0] << endl;
+	delete [] int;
+
+	vector<int> arr2(size);
+	arr2[0] = 2;
+	cout << "arr2[0] = " << arr2[0] << endl;
+
+
+
+	return 0;
+}
+
+14.
+H的地址
+
+15.
+fish bigfish = new fish;
+
+16.
+前一个只截取80个字符，后一个知道读取到空字符为止
+
+17.
+#include <iostram>
+#include <vector>
+#inlcude <array>
+#incldue <string>
+
+int main(void)
+{
+	const int size = 10;
+	
+	vector<string> arr(10);
+	array<string,10> arr1;
+}
