@@ -1,0 +1,50 @@
+1.
+后面只需要走一个判断就行。
+
+2.
+不直到
+
+3.
+这破玩意ch = '$' 而不是ch == '$';
+所以会被玩成返回值这样
+Hi! -> H$i$!$
+$S$e$n$d$ $
+ct1 = 9 ct2 = 9
+
+4.
+a. weight >= 115 && weight < 125
+b. 'q' == ch || 'Q' == ch
+c. x % 2 == 0 && x != 26
+d. x % 2 == 0 && x % 26 != 0
+e. donation >= 1000 && donation <= 2000 || 1 == guest;
+f. ch >= 'a' && ch <= 'z' || ch >= 'A' && ch <= 'Z'
+
+5.
+不一样 !!x 是0/1  x  可以是0/1 或者其他
+
+6.
+x > 0 ? x : -x
+
+7.
+swithc(ch)
+{
+  case 'A':
+    a_grade++;
+    break;
+  case 'B':
+    b_greade++;
+    break;
+  case 'C':
+    c_grade++;
+    break;
+  default:
+    f_grade++;
+}
+
+9.
+while(cin.get(ch) && ch != 'Q')
+{
+  if(ch == '\n')
+    line++;
+}
+
