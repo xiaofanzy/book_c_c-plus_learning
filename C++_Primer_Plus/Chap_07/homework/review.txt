@@ -1,0 +1,98 @@
+1.
+函数的申明
+函数的调用
+函数的实现
+
+2.
+void igor(void);
+float tofu(int n);
+double mpg(double a,double b);
+long summation(long ar[],sizeof(ar));
+double  doctor(const char ch);
+void ofcourse(boss b);
+char *plot(map *pt);
+
+3.
+void arr(int ar[],int arsize,int n)
+{
+  for(int i = 0;i < arsize;i++)
+    ar[i] = n;
+}
+
+4.
+int set_array(int *start,int *end,int value)
+{
+  for(int *i = start, i != end;i++)
+    *i = value;
+}
+
+5.
+double max_array(const double ar[],int ar_size)
+{
+  double max = *ar;
+  for(int i = 0; i < ar_size; i++)
+    max = max > ar[i] ? max : ar[i];
+
+  return max;
+}
+
+6.
+
+7.
+char ar[] = "HEllo world";
+char *pt = "Hello world";
+"Hello world";
+
+8.
+int replace(char *str,char c1,char c2)
+{
+  int time = 0;
+  while(*str)
+  {
+    if (*str == c1)
+    {
+        *str = c2;
+        time++;
+    }    
+
+    str++;
+  }
+
+  return times;
+}
+
+9.
+p
+a
+
+10.
+
+11.
+int judge(int (*pt)(const char *));
+
+12.
+void show(applicaion ap)
+{
+  cout << ap.name;
+  for(int i = 0;i < 3;i++)
+    cout << (ap.credit_ratings)[i] << endl;
+}
+
+void show(applicaion *ap)
+{
+  cout << ap->name;
+  for(int i = 0;i < 3;i++)
+    cout << (ap->credit_ratings)[i] << endl;
+}
+
+13.
+typedef void *f1(applicaion *a);
+f1 p1;
+
+typedef const char * (*p_f2)(const applicaion a1,const applicaion *a2);
+p_f2 p2;
+
+f1 ap[5];
+p_f2 (*pa)[10];
+
+
