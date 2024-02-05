@@ -14,16 +14,18 @@ int main(void)
 	getline(cin,str);
 
 	getUpper(str);
-
+	cout << str << endl;
 
 }
 
 void getUpper(string &str)
 {
-	int size = sizeof(str);
-	for(int i = 0; i < size; i++)
+	for (int i = 0; i < str.size(); i++)
 	{
-		if(str[i].islower())
+		if (islower(str[i]))
+		{
 			str[i] = toupper(str[i]);
+		}
 	}
+	
 }
