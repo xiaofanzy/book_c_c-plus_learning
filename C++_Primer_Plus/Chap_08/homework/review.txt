@@ -1,0 +1,36 @@
+
+1.
+
+2.
+a void song(const char *name,int time = 1);
+b void song(const cahr *name = "O.My Papa",int time = 1)
+c 
+
+3.
+a. void show(box &b)
+{
+	cout << b.maker << endl;
+	cout << b.height << endl;
+	cout << b.width << endl;
+	cout << b.length << endl;
+	cout << b.volume << endl;
+}
+
+b.
+void show(box &b)
+{
+	b.volume = b.height * b.width * b.length;
+}
+
+
+4.
+template <typename T>
+void show(T &c)
+{
+	cout << "\"" << c << "\"";
+}
+
+5.
+
+6.
+
