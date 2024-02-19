@@ -35,7 +35,8 @@ int main(void)
   }
 
   show(ps,3);
-  
+
+
 
   return 0;
 }
@@ -60,3 +61,4 @@ void show(T *ar[],int size)
   }
   cout << endl;
 }
+
