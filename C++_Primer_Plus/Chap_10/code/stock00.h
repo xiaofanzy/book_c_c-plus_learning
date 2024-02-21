@@ -17,6 +17,10 @@ public:
   void sell(long num,double price);
   void update(double price);
   void show();
+  const std::string &s_company() const{return company;};
+  long s_shares()const {return shares;};
+  double s_share_val() const {return share_val;};
+  double s_total_val() const {return total_val;};
 };
 
 
