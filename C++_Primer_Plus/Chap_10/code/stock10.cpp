@@ -21,7 +21,7 @@
 
 Stock::~Stock()
 {
-  std::cout << "~stock is used" << company << std::endl;
+  //std::cout << "~stock is used" << company << std::endl;
 }
 
 Stock::Stock()
@@ -76,4 +76,16 @@ void Stock::show() const
   cout << company << " company has " << shares << " piao and total is " << total_val << endl; 
 }
 
+const Stock & Stock::tobe(const Stock &s) const
+{
+  if (s.total_val > total_val)
+  {
+    return s;
+  }
+  else
+  {
+    return *this;
+  }
+  
+}
 

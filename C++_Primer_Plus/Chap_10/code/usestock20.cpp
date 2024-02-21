@@ -25,6 +25,9 @@ int main(void)
   const Stock st = Stock("no4",50,0.25);
   st.show();
 
+  cout << "between this :" << endl;
+  stock.tobe(stock2).show();
+
   /* Stock stock3;
   stock3.show(); */ 
 

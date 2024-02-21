@@ -18,6 +18,7 @@ public:
   void sell(long num,double price);
   void update(double price);
   void show() const;
+  const Stock &tobe(const Stock &s) const; 
   ~Stock();
 };
 
