@@ -9,23 +9,27 @@ int main(void)
   Time fixing(12,30);
 
   cout << "coding.." << endl;
-  coding.show();
+  //coding.show();
+  cout << coding;
 
   cout << "fixing .. " << endl;
-  fixing.show();
+  //fixing.show();
 
   //Time sum = coding.Sum(fixing);
   Time sum = coding + fixing;
 
   cout << "sum.." << endl;
-  sum.show();
+  //sum.show();
 
   cout << "mult " << endl;
   Time adjust = coding * 2;
-  adjust.show();
+  //adjust.show();
 
   adjust = 2 * coding;
-  adjust.show();
+  //adjust.show();
+
+  cout << "------" << endl;
+  cout << fixing << coding;
 
   return 0;
 }
