@@ -8,3 +8,17 @@ Stonewt Stonewt::operator*(double n) const
 }
 
 
+2.
+
+3.
+
+
+4.
+
+
+
+7.
+Vector::operator double()
+{
+  return length;
+}
