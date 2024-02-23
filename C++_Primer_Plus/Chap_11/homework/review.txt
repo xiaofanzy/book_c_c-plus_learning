@@ -1,0 +1,10 @@
+1.
+Stonewt operator*(double n) const;
+
+const int Stone_to_lb = 14;
+Stonewt Stonewt::operator*(double n) const 
+{
+  return Stonewt(n * stone,n*lbs);
+}
+
+

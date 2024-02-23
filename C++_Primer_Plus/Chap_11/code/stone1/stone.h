@@ -18,6 +18,8 @@ public:
   Stonewt(int stn,double lbs);
   void show_lbs() const;
   void show_stn() const;
+  operator double() const;
+  operator int() const;
   ~Stonewt();
 };
 

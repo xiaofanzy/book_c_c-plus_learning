@@ -11,5 +11,10 @@ int main(void)
   st = sts;
   st.show_stn();
 
+  double at = st;
+  cout << at << endl;
+
+  cout << int(st) <<endl;
+
   return 0;
 }
