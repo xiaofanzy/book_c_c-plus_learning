@@ -15,7 +15,7 @@ public:
   Cow();
   Cow(const char *nm,const char *ho,double wt);
   Cow(const Cow &c);
-  Cow &operator=(const Cow c);
+  Cow &operator=(const Cow &c);
   void ShowCow() const;
   ~Cow();
 };
