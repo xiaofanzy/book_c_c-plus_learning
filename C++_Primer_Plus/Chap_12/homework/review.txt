@@ -1,0 +1,72 @@
+1.
+a. str 指向随意位置；
+b. 
+String::String(const char *s)
+{
+  len = strlen(s);
+  str = char [len + 1];
+  strcpy(str,s);
+}
+
+c.
+
+
+2.
+初始化，用完删除，长度需要减去\0的位置；
+
+3.
+析构函数，构造函数，复制构造函数、赋值运算符、地址运算符
+
+4.
+class nifty
+{
+  private:
+    enum{MAX = 60};
+    char personality[MAX];
+    int talents;
+  public:
+    nitfy();
+    nitfy(char *s);
+    friend ostream & operator<<(ostream &os,const nifty &n);
+    ~nifty();
+}
+
+nifty::nifty()
+{
+  personality = NULL;
+  talents = 0;
+}
+
+nifty::~nifty()
+{
+  delete [] personality;
+}
+
+nifty::nifty(char *s)
+{
+  personality = new char[strlen(s) + 1];
+  strcpy(personality,s);
+  talents = 0;
+}
+ostream &niffy::operator<<(ostream &os,const niffy &n)
+{
+  os << n;
+  return os;
+}
+
+5.
+a.
+Glofer nancy 使用了默认构造方法；
+Glofer lulu("Little Lulu") 使用了 重载的默认构造方法；
+Glofer roy("Roy Hobbs",12) 使用了重载的默认构造犯法；
+Glofer *par = new Glofer 使用了 复制构造方法
+Glofer next = lulu 使用了复制构造的方法；
+Glofer hazzard = "Weed Tawacher" 使用了重载的构造方法和重载的等于号；
+*par = nancy 使用饿了=方法和复制构造方法；
+nancy = "nancy Putter"; 使用了重载的构造方法
+
+b.
+
+
+
+
