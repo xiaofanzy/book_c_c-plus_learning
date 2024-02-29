@@ -1,0 +1,59 @@
+1.
+变量及方法，只不过私有变量不允许访问；
+
+2.
+复制构造方法，虚析构函数、
+
+3.
+不能连续调用
+
+4.
+创建是先基类创建，再派生类创建，销毁按照先进后出的方式。
+
+5.
+需要
+
+6.
+派生类的方法会隐藏基类的同名方法；
+
+7.
+当需要访问基类私有变量的时候；
+
+8.
+基类对象的指针不可以指向派生类除非强制类型转换，但是派生类方法能指向基类；
+
+9.
+同理
+
+10.
+简单来说，派生类继承了基类的变量及方法，所以可以操作与基类共有的变量方法等；
+
+11.
+同理
+
+12.
+引用传递传递的是地址，值传递传递的是副本
+
+13.
+虚方法会调用PublicCorporation的head()方法；
+非虚方法会使用Corporation的head()方法；
+
+14.
+class Kitchen
+{
+  private:
+    double kit_sq_ft;
+  public:
+    Kitchen(){kit_sq_ft = 0.0;}
+    double ksf(){return kit_sq_ft;}
+    virtual doubler area() const{return kit_sq_ft * kit_sq_ft;
+}
+
+class House :public Kitchen
+{
+  private:
+    double all_sq_ft;
+  public:
+    House(){all_sq_ft = Kitchen.ksf();}
+    double area(const char *s)const {cout << s; reurn all_sq_ft;}
+}
