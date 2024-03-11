@@ -47,7 +47,10 @@
     "typeinfo": "cpp",
     "ctime": "cpp",
     "fstream": "cpp",
-    "valarray": "cpp"
+    "valarray": "cpp",
+    "list": "cpp",
+    "map": "cpp",
+    "set": "cpp"
   },
   "C_Cpp.errorSquiggles": "enabled"
 }
