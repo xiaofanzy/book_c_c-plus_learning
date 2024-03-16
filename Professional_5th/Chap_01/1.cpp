@@ -17,7 +17,7 @@ int main(int argc, char const *argv[])
   int f2{int(myFloat)};
   int f3{static_cast<int>(myFloat)};  // 推荐这种
 
-  
+  1
 
 
 
