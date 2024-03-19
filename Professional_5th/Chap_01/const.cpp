@@ -9,6 +9,7 @@ void mysteryFunction(const string *someString)
 }
 
 constexpr const int getArraySize() {return 32;}
+void printString(const string& mystring);
 
 int main(int argc, char const *argv[])
 {
@@ -31,7 +32,15 @@ int main(int argc, char const *argv[])
   int arr[getArraySize()];
 
 
+  // const 引用传递
+  string somestring{"Hello World"};
+  printString(somestring);
+  printString("Hello world");
 
   return 0;
 }
 
+void printString(const string& mystring)
+{
+  cout << mystring << endl;
+}
