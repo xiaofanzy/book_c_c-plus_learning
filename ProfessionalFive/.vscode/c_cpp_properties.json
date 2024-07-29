@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/local/lib/gcc/x86_64-pc-linux-gnu/13.1.0/../../../../include/c++/13.1.0",
+                "/usr/local/lib/gcc/x86_64-pc-linux-gnu/13.1.0/../../../../include/c++/13.1.0/x86_64-pc-linux-gnu",
+                "/usr/local/lib/gcc/x86_64-pc-linux-gnu/13.1.0/../../../../include/c++/13.1.0/backward",
+                "/usr/local/lib/gcc/x86_64-pc-linux-gnu/13.1.0/include",
+                "/usr/local/include",
+                "/usr/local/lib/gcc/x86_64-pc-linux-gnu/13.1.0/include-fixed/x86_64-linux-gnu",
+                "/usr/local/lib/gcc/x86_64-pc-linux-gnu/13.1.0/include-fixed",
+                "/usr/include/x86_64-linux-gnu",
+                "/usr/include"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/local/bin/gcc",
+            "cStandard": "c23",
+            "cppStandard": "c++23",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}
